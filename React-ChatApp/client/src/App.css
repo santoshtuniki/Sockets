@@ -1,0 +1,183 @@
+.App {
+	margin-top: 60px;
+	font-size: 18px;
+}
+
+/* Home CSS */
+
+.form {
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+h2, h1 {
+	margin-top: 10px;
+	text-align: center;
+}
+
+form div {
+	width: 60%;
+	margin-left: 20%;
+}
+
+.form-label {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.btn-center {
+	text-align: center;
+}
+
+button {
+	margin-right: 10%;
+}
+
+/* Chat CSS */
+.fas {
+	margin-right: 8px;
+}
+
+#chat {
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 800px;
+	position: relative;
+	padding-top: 10px;
+}
+
+.row {
+	margin: 15px; 
+	height: 660px;
+	position: relative;
+}
+
+.col {
+	text-align: center;
+	position: relative;
+	border: 1px solid black;
+}
+
+.room, .friends {
+	padding: 0;
+	margin-bottom: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.room {
+	margin-top: 8px;
+	height: 98px;
+}
+
+.friends {
+	height: 530px;
+}
+
+.room div {
+	padding: 10px;
+	border-bottom: 1px solid black;
+}
+
+.friends div {
+	padding: 10px;
+	border-bottom: 1px solid black;
+}
+
+.friends ul {
+	height: 480px;
+	list-style-type: none;
+	text-align: left;
+	overflow-y: scroll;
+}
+
+.friends li {
+	padding: 8px;
+	padding-left: 10px;
+	position: relative;
+}
+
+li svg {
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+}
+
+.col form {
+	width: 94%;
+	margin: 10px 3% 0;
+	position: absolute;
+	bottom: 20px;
+	right: 0;
+}
+
+#chat input {
+	width: 88%;
+	margin-right: 5px;
+	border: 1px solid black;
+}
+
+#chat .form-control {
+	display: inline-block;
+}
+
+.col hr {
+	position: absolute;
+    color: black;
+    bottom: 70px;
+    width: 100%;
+    left: 0;
+}
+
+.chat-messages {
+	margin: 18px;
+    padding: 20px;
+    height: 560px;
+	overflow-y: scroll;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+
+.chat-messages .message {
+	padding: 10px;
+	margin-bottom: 15px;
+	background-color: rgb(193, 235, 193);
+	border-radius: 5px;
+	overflow-wrap: break-word;
+	text-align: left;
+}
+
+.chat-messages .message .meta {
+	font-size: 15px;
+	font-weight: bold;
+	color: var(--dark-color-b);
+	opacity: 0.7;
+	margin-bottom: 7px;
+	position: relative;
+}
+
+.chat-messages .message .meta span {
+	color: #777;
+}
+
+.chat-messages .message .meta .date {
+	position: absolute;
+	right: 5px;
+}
+
+.leave {
+	position: absolute;
+	top: 13px;
+	right: 55px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+/* Colors CSS */
+.green {
+	color: #28e62c;
+}
+
+.orange {
+	color: #e29b36;
+}
